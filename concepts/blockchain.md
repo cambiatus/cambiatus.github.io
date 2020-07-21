@@ -80,6 +80,6 @@ The import bit is:
 
 #### Signatures
 
-In order to sign, you'll need a private key that is associated to a valid EOS Account. We won't detail how to do it here, since its only conceptual but EOS has several signature providers, such as [eosjs](https://www.npmjs.com/package/eosjs) (javascript implementation) or eos[eos-sharp](https://github.com/GetScatter/eos-sharp)
+In order to sign, you'll need a private key that is associated to a valid EOS Account. We won't detail how to do it here, since its only conceptual but EOS has several signature providers, such as [eosjs](https://www.npmjs.com/package/eosjs) (javascript implementation) or [eos-sharp](https://github.com/GetScatter/eos-sharp)
 
 With both an array of actions and a signature you'll be able to write to the blockchain
