@@ -73,13 +73,10 @@ The import bit is:
    "data": "000000000083908e80cc8e0e9b24cd760100000000000000004245530000000000"
  }
 ```
-**Account**: Is the contract address. For all transactions on Cambiatus you'll need to call `bes.token` or `bes.cmm`, depending on what you want to do.
-
-**Name**: Is the action name, a contract has several different actions. You'll have to specify one.
-
-**Authorization**: It is the account that wants to send a transaction. _For example: If you want to transfer, you'll have to provide a `from` and a `to` params, and an authorization from the `from` account_
-
-**Data**: On the example it is encoded, but it's all the required params for transfer. You can check the required params for transfer [here](https://github.com/cambiatus/contracts/blob/master/bespiral.token/bespiral.token.hpp#L51)
+- **Account**: Is the contract address. For all transactions on Cambiatus you'll need to call `bes.token` or `bes.cmm`, depending on what you want to do.
+- **Name**: Is the action name, a contract has several different actions. You'll have to specify one.
+- **Authorization**: It is the account that wants to send a transaction. _For example: If you want to transfer, you'll have to provide a `from` and a `to` params, and an authorization from the `from` account_
+- **Data**: On the example it is encoded, but it's all the required params for transfer. You can check the required params for transfer [here](https://github.com/cambiatus/contracts/blob/master/bespiral.token/bespiral.token.hpp#L51)
 
 #### Signatures
 
