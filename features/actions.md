@@ -12,11 +12,11 @@ Actions are the definition of exactly what the community must do to reach those 
 
 **_Validity_ of an action. This can be by _date_ and _quantity_**
   - _Date_: its pretty straightforward. The action can be claimed until a certain date. After that date is met, its no longer possible to open new claims. An important part is that the claims themselves can be validated after this date is met. Only new claims that cannot be created.
-  - _Quantity_ : Maybe we should have called this _usages_, but it determines the number of times this action can be **Approved or Disapproved**. That means that the users can claim all they want, but only the specified number can lead to rewards. So lets say we configure this action to have `Quantity of 3`; we can have 100s of claims opened, but after the 3 one is voted fully (approved or disapproved) the rest will be "unvoteable:, as the action will change its status to "completed" (that is set the flag `is_completed` to `true`.
+  - _Quantity_ : Determines the number of times this action can be **Approved or Disapproved**. That means that the users can claim all they want, but only the specified number can lead to rewards. So lets say we configure this action to have `Quantity of 3`; we can have 100s of claims opened, but after the 3 one is voted fully (approved or disapproved) the rest will be "unvoteable:, as the action will change its status to "completed" (that is set the flag `is_completed` to `true`.
   
 **Verification**
 
-Verification is the process on which the community decides if the action was done or not. The verification can be *Automatic* if its going to be validated automatically by some software, or it can be *Manual*, which requires human validation.
+Verification is the process by which the community decides if an action is completed or not. The verification process can be Automatic if validated by software, or Manual, which requires human validation.
 
 
   - _Automatic_: This validation requires nothing more than a contract call, it will reward the users directly as specified in the [`verifyaction`](https://github.com/cambiatus/contracts/blob/master/community/community.hpp#L202) function. This function requires an `maker` param which will be the user rewarded. Those actions were created aiming for automation from the communities to give rewards based of a process that is automatically verified. For example, on the [Entre Pulperias](https://www.facebook.com/entrepulperoscostarica/) app, the users earn tokens by doing e-learning classes. Since the software can tell if they actually did the class, the rewarding can be made without human interaction
