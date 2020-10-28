@@ -1,8 +1,25 @@
-## Welcome to Cambiatus Wiki
+<p align="center">
+	<a href="https://cambiatus.com">
+    <img src="https://cambiatus.github.io/assets/logo-cambiatus.png" alt="logo" width="300"> 
+	</a>
+</p>
+<br/>
 
-Here you can access documentation on how to integrate, use and develop for Cambiatus Platform.
+## Welcome to Cambiatus Wiki :wave:
+### New Organizations for the planet regeneration. Clear Objectives. Impactful Collaboration.
 
-- [Basic concepts](concepts/blockchain.md)
-- [Accounts](accounts.md)
-- [Setup a new community](setup.md)
-- [Balances](balances.md)
+We are an open source platform to empower the creation of new organizations, through Social Currencies on Blockchain.
+
+**For more information checkout:**
+
+- [This Wiki](https://cambiatus.github.io/)
+- [Blog](https://medium.com/cambiatus)
+- [Communities](https://www.cambiatus.com/pilots)
+- [FAQs](https://www.cambiatus.com/faq2)
+
+In this **Wiki** you can learn more about:
+
+- [Features](features.md)
+- [Eos Blockchain](eos.md)
+- [Integrating Cambiatus into your app](integration.md)
+- [Onboarding Devs](onboarding.md)
