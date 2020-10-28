@@ -1,11 +1,4 @@
-<p align="center">
-	<a href="https://cambiatus.com">
-    <img src="https://cambiatus.github.io/assets/logo-cambiatus.png" alt="logo" width="300"> 
-	</a>
-</p>
-<br/>
-
-## Welcome to Cambiatus Wiki :wave:
+# Welcome to Cambiatus Wiki
 ### New Organizations for the planet regeneration. Clear Objectives. Impactful Collaboration.
 
 We are an open source platform to empower the creation of new organizations, through Social Currencies on Blockchain.
