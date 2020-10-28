@@ -4,36 +4,11 @@ In order to user Cambiatus, you'll need a community and users that belong to it.
 
 ### Creating a community
 
-To create a community, you'll have to send a transaction with an action inside of it. Using EOSJS you can do the following:
-
-```javascript
-function createCommunity() {
-   const authorization = 'devcambiatus@active'
-   const data = {
-    asset: '0 XXX',
-    logo: '',
-    name: 'Community Name',
-    description: 'Some Description', // Max 256 chars
-    inviterReward: '0 XXX',
-    invitedReward: '0 XXX',
-    hasObjectives: 0,
-    hasShop: 0,
-  }
-  
-  eos.contract('bes.cmm').then(cambiatus => {
-    cambiatus.create(data, authorization).then(action => {
-      // Do something after the creation
-    }).catch(e => {
-      console.error(e)
-    })
-  })
-}
-```
-
+To create a community, you'll have to use our frontend. You can always use https://demo.cambiatus.io/community/new to create communities and test your work. Just keep in mind that we periodically reset all the data on that env, as its not proper for production usage, so don't get to attached to your data. 
 
 ### Inviting users
 
-We'll call call `netlink`: it will include the user to the network of the community
+All new users must be added to the community network. We can do so by calling the `netlink` action.
 
 Please remember that you'll need to have a valid existing account. For learning how to create accounts checkout our [accounts page](accounts.md)
 
