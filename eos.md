@@ -1,3 +1,5 @@
+# EOS
+
 ## Blockchain Concepts
 
 Cambiatus is a [Dapp](https://en.wikipedia.org/wiki/Decentralized_application) and as any Dapp it has certain concepts that are important to understand.
