@@ -8,4 +8,4 @@ You can find specific instructions on how to use our APIs to:
 
 - [Create a new account](integration/accounts.md)
 - [Fetch user balance](integration/balances.md)
-- [Create a new Community](integration/community.md)
+- [Invite users and Query community data](integration/community.md)
