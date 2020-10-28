@@ -24,7 +24,7 @@ function netlink() {
     skip_rewards: 1
   }
 
-  eos.contract('bes.cmm').then(contract => {
+  eos.contract('cambiatus.cm').then(contract => {
     contract.netlink(data, authorization).then(action => {
       // Do something after inviting
     }).catch(e => {
@@ -34,12 +34,12 @@ function netlink() {
 }
 ```
 
-For the authorization you will need to use this account: `devcambiatus@active`.
+For the authorization, remember you'll have to use an account that belongs to the community you specified. 
 
 
 ### Useful API Calls
 
-We provide a [GraphQL](https://graphql.org) API for all Cambiatus entities. They are easy to explore and experiment with. For documentation on the API, [click here](https://api.cambiatus.io/api/graphiql)
+We provide a [GraphQL](https://graphql.org) API for all Cambiatus entities. They are easy to explore and experiment with. For documentation on the API, [click here](https://demo.cambiatus.io/api/graphiql)
 
 Some examples of GraphQL queries you might find useful:
 
@@ -47,7 +47,7 @@ Some examples of GraphQL queries you might find useful:
 
 ```graphql
 query {
-  community(symbol: "BES") {
+  community(symbol: "CMB") {
     name
     symbol
     hasShop
@@ -60,7 +60,7 @@ query {
 
 ```graphql
 query {
-  community(symbol: "BES") {
+  community(symbol: "CMB") {
     name
     symbol
     hasShop
@@ -76,7 +76,7 @@ query {
 
 ```graphql
 query {
-  community(symbol: "BES") {
+  community(symbol: "CMB") {
     name
     transfers(first: 10) {
       edges {
