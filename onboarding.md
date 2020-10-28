@@ -18,7 +18,7 @@ We have put together a document called the [Path to Knowledge](https://docs.goog
 
 **Now what really means Cambiatus?**
 
-In Spanish “Cambia” is the word used to express “Change”.  Cambiatus refers to a change in our mindset, a change in the way we understand money, organizations and collaboration. 
+In Spanish “Cambio” or "Cambiar" is the word used to express “Change”.  Cambiatus refers to a change in our mindset, a change in the way we understand money, organizations and collaboration. 
 
 When people start using Cambiatus methodologies and tools, something changes inside them, they get it! 
 
