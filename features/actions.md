@@ -11,7 +11,7 @@ Objectives are what you want to achieve with your actions. All actions must be d
 Actions are the definition of exactly what the community must do to reach those objectives. We made actions in a way that they are very flexible and allow for different use cases. For that we added a few options:
 
 **_Validity_ of an action. This can be by _date_ and _quantity_**
-  - _Date_: its pretty straightforward. The action can be claimed until a certain date. After that date is met, its no longer possible to open new claims. An important part is that the claims themselves can be validated after this date is met. Only new claims that cannot be created.
+  - _Date_: An action can be claimed until certain date is reached. After the set date, claims cannot be opened. The validation of opened claims can occur after the set date.
   - _Quantity_ : Determines the number of times this action can be **Approved or Disapproved**. That means that the users can claim all they want, but only the specified number can lead to rewards. So lets say we configure this action to have `Quantity of 3`; we can have 100s of claims opened, but after the 3 one is voted fully (approved or disapproved) the rest will be "unvoteable:, as the action will change its status to "completed" (that is set the flag `is_completed` to `true`.
   
 **Verification**
