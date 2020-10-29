@@ -12,7 +12,10 @@ Actions are the definition of exactly what the community must do to reach those 
 
 **_Validity_ of an action. This can be by _date_ and _quantity_**
   - _Date_: An action can be claimed until certain date is reached. After the set date, claims cannot be opened. The validation of opened claims can occur after the set date.
-  - _Quantity_ : Determines the number of times this action can be **Approved or Disapproved**. That means that the users can claim all they want, but only the specified number can lead to rewards. So lets say we configure this action to have `Quantity of 3`; we can have 100s of claims opened, but after the 3 one is voted fully (approved or disapproved) the rest will be "unvoteable:, as the action will change its status to "completed" (that is set the flag `is_completed` to `true`.
+  - _Quantity_ : Determines the number of times this action can be **Approved or Disapproved**. That means that the users can claim all they want, but only the specified number can lead to rewards. So lets say we configure this action to have `Quantity of 3`; we can have 100s of claims opened, but after the 3 one is voted fully (approved or disapproved) the rest will be "unvoteable:, as the action will change its status to "completed" (that is set the flag `is_completed` to `true`). Quantity is about **claims**. 
+ 
+Example of a sceario using **Quantity**
+> Lets say you create an action called "Plant a tree", that belongs to an objective called "Plant 2 trees". In this case, we configure that action to have `quantity` as 2. That is, after the community has verified that exactly 2 trees were planted, the action will be considered completed. Lets say that this community had high engagement, and a lot of users have claimed to plant trees. Lets assume that we had 10 claims open. Now the verifiers of that **action** will have check and give their vote on each **claim**. Lets say that they disapprove the first, approved the second. When its time to vote for the third one, their vote will fail. The action be considered completed. After that, all other claims will not be votable.
   
 **Verification**
 
