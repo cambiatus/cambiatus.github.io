@@ -29,6 +29,6 @@ Now the backend will take over. Roughly the backend will do the following steps:
 - Check if the `account` and `email` are valid
 - Tries to create the account on EOS
 - Creates the user in the DB
-- Netlinks the newly created user to the community
+- [Netlinks](/features/networks.md) the newly created user to the community
 
 All those steps are required to work properly in order for the signup to be completed. 
