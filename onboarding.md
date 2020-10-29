@@ -26,11 +26,10 @@ When people start using Cambiatus methodologies and tools, something changes ins
 
 Now that you have your Cambiatus mindset properly setup is time to have some tech fun!
 
-Here are our development environments documentation to help you dive in and setup:
+Here are our development environments repository to help you dive in and setup:
 
-- [Backend](backend.md)
-- Frontend
-- Backend
-- Contracts
+- [Backend (Elixir)](https://github.com/cambiatus/backend)
+- [Frontend (Elm)](https://github.com/cambiatus/frontend)
+- [Smart Contracts (EOS)](https://github.com/cambiatus/contracts)
 
 Have fun and hack away!!
