@@ -1,6 +1,6 @@
 # Developers Onboarding
 
-## Welcome in to our developers hub 
+## Welcome to our developers hub 
 
 We look forward to working together!
 
@@ -31,5 +31,6 @@ Here are our development environments repository to help you dive in and setup:
 - [Backend (Elixir)](https://github.com/cambiatus/backend)
 - [Frontend (Elm)](https://github.com/cambiatus/frontend)
 - [Smart Contracts (EOS)](https://github.com/cambiatus/contracts)
+- [GraphQL](graph_doc/graphql.md) wiki page
 
 Have fun and hack away!!
