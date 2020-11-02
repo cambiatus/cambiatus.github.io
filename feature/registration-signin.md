@@ -25,7 +25,7 @@ mutation {
 
 Now the backend will take over. Roughly the backend will do the following steps:
 
-- Try to find if the `account` is already registred;
+- Try to find if the `account` is already registered;
 - Check if the `account` and `email` are valid;
 - Try to create the account on EOS;
 - Create user in the DB;
