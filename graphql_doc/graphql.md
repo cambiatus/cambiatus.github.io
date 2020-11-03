@@ -1,12 +1,12 @@
 # GraphQL
 
-## **Table of Contents**
+## Table of Contents
 
 - [Intro](#intro) 
 - [Development](#development)
 - [Additional Resources](#additional-resources)
 
-## **Intro**
+## Intro
 
 **What is GraphQL?**
 
@@ -26,7 +26,7 @@ Here is detailed information about these for your consumption:
 - [Mutations](https://graphql.org/learn/queries/#mutations)
 - [Schemas](https://graphql.org/learn/schema/)
 
-**Absinthe & Ecto**
+**Absinthe & Ecto Packages**
 
 These are important Elixir links (database wrapper and package) to GraphQL find more information on the links below. 
 
@@ -34,7 +34,7 @@ These are important Elixir links (database wrapper and package) to GraphQL find 
    
 - [Absinthe package](https://hexdocs.pm/absinthe/overview.html) GraphQL toolkit for Elixir.
 
-## **Development**
+## Development
 
 **GraphiQL Playground**
 

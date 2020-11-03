@@ -31,6 +31,10 @@ Here are our development environments repository to help you dive in and setup:
 - [Backend (Elixir)](https://github.com/cambiatus/backend)
 - [Frontend (Elm)](https://github.com/cambiatus/frontend)
 - [Smart Contracts (EOS)](https://github.com/cambiatus/contracts)
+
+## Important Resources
+
 - [GraphQL](graph_doc/graphql.md) wiki page
+- [PostgreSQL](postgresql.md) wiki page
 
 Have fun and hack away!!
