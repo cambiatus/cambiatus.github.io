@@ -13,7 +13,7 @@ Blockchains are just databases with some characteristics. We will basically focu
 
 ### How to read data
 
-Blockchains, as other databases allows you to read data from it. Different blockchains have different ways. In Cambiatus we use the [EOS Blockchain](https://eos.io) which is a blockchain that allow for Smart Contracts, which in a way are just a way to describle different tables and actions. Tables being how the data is structured and actions being the ways on which we can modify that data (this is, of course, a simplification)
+Blockchains, as other databases allows you to read data from it. Different blockchains have different ways. In Cambiatus we use the [EOS Blockchain](https://eos.io) which is a blockchain that allow for Smart Contracts, which in a way are just a way to describe different tables and actions. Tables being how the data is structured and actions being the ways on which we can modify that data (this is, of course, a simplification)
 
 On EOS you can read data by doing HTTP calls. Those are very simple requests and Cambiatus offers a more streamlined and capable GraphQL API for querying data. You can check it out on our [API Documentation](/api/index.md)
 
