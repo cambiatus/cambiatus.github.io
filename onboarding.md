@@ -45,5 +45,6 @@ Our app is composed of a few repos, that work together to deliver our final app.
 
 - [GraphQL](graph_doc/graphql.md) wiki page
 - [PostgreSQL](postgresql.md) wiki page
+- [Useful tool to convert SVG to Elm](https://levelteams.com/svg-to-elm)
 
 Have fun and hack away!!
