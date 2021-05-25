@@ -44,6 +44,7 @@ Our app is composed of a few repos, that work together to deliver our final app.
 - Postgres -- Database where we copy the current state of the blockchain data, its easier to manipulate and consume;
 - [EOSIO](https://github.com/cambiatus/contracts) -- Blockchain that holds the final state of our app, aside from the frontend, all apps just exist to consume its data more easily.
 
+Here is a [deep-dive](deep-dive.md) into our application for your reference and knowledge. 
 ## Important Resources
 
 - [GraphQL](graph_doc/graphql.md) wiki page
