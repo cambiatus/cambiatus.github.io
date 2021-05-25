@@ -35,12 +35,16 @@ This also means that Staging is prone to errors from time to time as its used by
 
 Our app is composed of a few repos, that work together to deliver our final app. Here's an outline:
 
+<img src='https://lucid.app/publicSegments/view/7655c9e8-d9ad-4d1f-8da1-46a110e255e4/image.png' height='400' alt='Cambiatus Data Flow' />
+
+### Repositories
 - [Frontend](https://github.com/cambiatus/frontend) -- Elm app, its the main interaction point for our users;
 - [Backend](https://github.com/cambiatus/backend) -- Our API written in Elixir. It handles Postgres' Database migrations;
 - Event Source -- Javascript app that listens to our EOSIO blockchain and copies its data to Postgres;
 - Postgres -- Database where we copy the current state of the blockchain data, its easier to manipulate and consume;
 - [EOSIO](https://github.com/cambiatus/contracts) -- Blockchain that holds the final state of our app, aside from the frontend, all apps just exist to consume its data more easily.
 
+Here is a [deep-dive](deep-dive.md) into our application for your reference and knowledge. 
 ## Important Resources
 
 - [GraphQL](graph_doc/graphql.md) wiki page
