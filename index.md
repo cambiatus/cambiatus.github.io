@@ -19,7 +19,7 @@ We are an open source platform to empower the creation of new organizations, thr
 
 In this **Wiki** you can learn more about:
 
-- [Features](features.md)
+- Features like [actions](features/actions.md) and [network](features/network.md)
 - [Eos Blockchain](eos.md)
 - [Integrating Cambiatus into your app](integration.md)
 - [Onboarding Devs](onboarding.md)
