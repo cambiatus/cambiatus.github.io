@@ -16,6 +16,7 @@ We are an open source platform to empower the creation of new organizations, thr
 - [Blog](https://medium.com/cambiatus)
 - [Communities](https://www.cambiatus.com/pilots)
 - [FAQs](https://www.cambiatus.com/faq2)
+- [Learning Path](trilhadeaprendizagem.md)
 
 In this **Wiki** you can learn more about:
 
