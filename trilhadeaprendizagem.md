@@ -1,6 +1,6 @@
-<center><img src="assets/logo-cambiatus.png" alt="Cambiatus" height="25"/></center>
+<p align="center"><img src="assets/logo-cambiatus.png" alt="Cambiatus" height="25"/></p>
 
-# <center>Trilha de Aprendizagem</center>
+# <p align="center">Trilha de Aprendizagem</p>
 **Estamos muito felizes pelo seu interesse em criar sua moeda social usando Cambiatus.**
 
 Nosso processo de co-desenho de moedas começa com a mudança de mindset. Para conseguirmos desenhar moedas complementares, precisamos ressignificar o que é dinheiro, o que é sucesso, e imaginar novas organizações. 
@@ -86,15 +86,7 @@ Estmamos muito contentes com essa trilha! Agora, recomendamos também este conte
 * [Moedas Complementares em Blockchain como Mecanismo de Incentivo: Por que apoiá-las?](referenciascientificas.md "Moedas Complementares em Blockchain como Mecanismo de Incentivo: Por que apoiá-las?")
 * [Como iniciar seu grupo de estudos em 4 passos](grupodeestudos.md "Como iniciar seu grupo de estudos em 4 passos")
 
-<center>Continuamos abordando estes e outros assuntos nas nossas redes:
-
+Continuamos abordando estes e outros assuntos nas nossas redes:<br>
 [Medium](https://medium.com/cambiatus "Medium") | [Youtube](https://www.youtube.com/channel/UCIyb1r-Mj12veCMIB-EEzaA/featured "Youtube") | [Twitter](https://twitter.com/_cambiatus "Twitter") | [Linkedin](https://www.linkedin.com/company/cambiatus/about/ "Linkedin") | [Instagram](https://www.instagram.com/cambiatus/ "Instagram") | [Facebook](https://www.facebook.com/Cambiatus "Facebook")
 
-<img src="assets/logo-cambiatus.png" alt="Cambiatus" height="15"/></center>
-
-
-
-
-
-
-
+<img src="assets/logo-cambiatus.png" alt="Cambiatus" height="15"/>
